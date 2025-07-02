@@ -1,73 +1,35 @@
-# Welcome to your Lovable project
+# Product Card UI
 
-## Project info
+A responsive and modern Product Card component for e-commerce product listings.
 
-**URL**: https://lovable.dev/projects/6388b6d3-ae6a-4a1d-b3bc-a57216cbe53e
+## Features
+- Product image
+- Product name
+- Product price
+- Variant dropdown or label
+- "Add to Cart" button (disabled or replaced with "Out of Stock" if unavailable)
+- Clean, card-based layout
+- Responsive design using Tailwind CSS
 
-## How can I edit this code?
+## Layout Approach
+The Product Card uses a vertical flex layout to stack the image, product details, and actions, ensuring clear separation and consistent spacing. Responsiveness is achieved with Tailwind CSS utility classes, allowing the card to adapt gracefully to various screen sizes for optimal usability and appearance.
 
-There are several ways of editing your application.
+## Getting Started
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/aduna-kebeda/ecommerce.git
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-**Use Lovable**
+## Demo
+A working demo is available at: [GitHub Pages/Netlify/CodeSandbox link here]
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6388b6d3-ae6a-4a1d-b3bc-a57216cbe53e) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6388b6d3-ae6a-4a1d-b3bc-a57216cbe53e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## License
+MIT
